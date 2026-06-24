@@ -37,7 +37,7 @@ const frames=page.frames();
 console.log("Number of frames:",frames.length)
 
 
-// ---Approch 1: using page.frame()----
+// ---Approch 2: using page.frame()----
 const inputbox= page.frameLocator('[src="/frame_left"]').locator('[name="frame-left"]')
 
 })
